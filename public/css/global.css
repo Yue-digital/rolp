@@ -1,0 +1,180 @@
+body {
+    background: whitesmoke
+}
+
+/* FOR CLOCK */
+.box1 {
+    height: 30px;
+    background: linear-gradient(to top, #ffcc66 0%, #cc9900 100%);
+}
+
+#clock {
+    color: white;
+    text-align: left;
+    font-size: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    letter-spacing: 3px;
+    padding: 10px;
+    padding-left: 40px;
+    
+  }
+
+.box2 {
+    height: 62px; /* Set to your desired height */
+    background: #faf0e6; /* Light beige background color */
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow with offset, blur, and color */
+}
+
+/* FOR NAVBAR */
+.navbar{
+    /* background-color: white; */
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+    
+  }
+  
+  .navbar-brand {
+    font-size: small;
+    font-weight: 400;
+    color: rgb(5, 5, 5);
+    font-size: 24px;
+    transition: 0.3s color;
+  }
+  
+  
+  
+ 
+  .navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+  }
+  
+  .navbar-toggler:focus,
+  .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .nav-link {
+    color: rgb(0, 0, 0);
+    font-size: small;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .nav-link:hover,
+  .nav-link:active {
+    color: #000;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  /* HOVER */
+
+
+/* CSS for Navbar Links Hover Effect */
+.navbar-nav .nav-link {
+    transition: color 0.1s, background-color 0.1s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #968522; /* Change the text color on hover */
+    /* background-color: #ab8600; Change the background color on hover */
+    border-radius: 4px; /* Optional: adds rounded corners */
+  }
+  
+  /* Optional: style for dropdown items on hover */
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #ab8600; /* Change background color for dropdown items on hover */
+  }
+  
+  
+  
+  
+  @media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: rgb(203, 149, 0);
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+  
+    .nav-link:hover::before,
+    .nav-link:active::before {
+        width: 100%;
+        visibility: visible;
+    }
+  }
+  
+  
+  .responsive {
+    max-width: 100%;
+    height: auto;
+    margin-left: -250px;
+  }
+  
+  .hero-section {
+    /* background-image: url('50yearslogo.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: flex; 
+    width: 60rem;
+    height: 50rem;
+    display: flex;
+    margin-top: -50px;
+    
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .hero-section {
+        background-position: -250px;
+    }
+  }
+  
+  
+  .image{
+    margin: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  
+  .hero-section::before{
+    background-color: rgba(255, 255, 255, 0.037);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .hero-section .container {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .hero-section h1{
+    font-size: 2.0em;
+  }
+  
+  .hero-section h2{
+    font-size: 0em;
+  }
