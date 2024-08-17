@@ -1,5 +1,6 @@
 @extends('layout/main')
 @extends('layout/header')
+@extends('layout/footer')
 @section('style')
     <link rel="stylesheet" href="{{asset('css/home/main.css')}}">
 @endsection

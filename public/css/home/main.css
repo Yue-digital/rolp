@@ -1,7 +1,7 @@
 
 
 .home-container .home-row{
-    background-color: blueviolet;
+    background-color: #E9B325;
 }
 
 
@@ -26,6 +26,39 @@
         }
     }
 }
+
+.footer-container{
+    background-color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    padding: 50px 30px 40px 60px;
+    i{
+        font-size: 24px;
+        color:#E9B325;
+        margin: 5px;
+    }
+    a.link:hover{
+        color: black;
+    }
+}
+.footer-container .footer-row{
+    a{
+        text-decoration: none;
+        color: inherit;     
+    }
+    a.link:hover{
+        text-decoration: none;
+        color: #E9B325;
+    }
+    .gray-text{
+        color: gray;
+    }
+    .palette-text{
+        color: #E9B325;
+    }
+}
+
+
 @media only screen and (max-width: 425px ){
    
 }
