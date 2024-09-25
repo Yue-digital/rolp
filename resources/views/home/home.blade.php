@@ -7,10 +7,11 @@
 
 
 @section('body')
-    <div class="container-fluid bg-success home-container " >
-        <div class="row home-row bg-warning">
+<body>
+    <div class="container-fluid home-container">
+        <div class="row home-row">
            
-            <div class="col-md-6 col-sm-6 col-12 home-announcement row bg-secondary">
+            <div class="col-md-6 col-sm-6 col-12 home-announcement row">
                 
                     <div class="col-md-12 announcement-item"><h2>Latest News and Announcements</h2></div>
                     <div class="col-md-12 announcement-item">
@@ -40,4 +41,5 @@
         </div>
         
     </div>
+</body>
 @endsection
