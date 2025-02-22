@@ -153,6 +153,14 @@ h1,h2,h3,h4,h5, .rolp-title{
     }
 
 }
+
+.blockquote{
+    font-size: 6rem;
+    font-weight: bolder;
+    line-height: 5rem;
+    margin-bottom: 0;
+}
+
 .message-section{
     align-items: center;
     justify-content: center;
@@ -161,12 +169,7 @@ h1,h2,h3,h4,h5, .rolp-title{
         display: flex;
         flex-direction: column;
         align-items: center;
-        .blockquote{
-            font-size: 6rem;
-            font-weight: bolder;
-            line-height: 5rem;
-            margin-bottom: 0;
-        }
+
 
         h2{
             text-align: center;
@@ -246,6 +249,94 @@ footer.rolp-footer{
         justify-content: space-between;
         p{
             width: auto;
+        }
+    }
+}
+
+
+
+body .page-about{
+
+    .hero-rolp-row{
+        height: 20vw;
+        background-position: 80%;
+    }
+    .blockquote{
+        text-align: left;
+        align-self: self-start;
+        line-height: 2rem;
+    }
+
+    .our-priest{
+        padding-bottom: 100px;
+        .priest-col{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin: 35px auto ;
+            img{
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+
+            }
+        }
+    }
+    .about-us-section{
+
+        .about-us-col{
+            padding: 0 10%;
+            p{
+                color: #444444;
+                font-size: 18px;
+            }
+        }
+
+        .monsi-img{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                border-radius: 30px;
+                max-height: 470px;
+                max-width: 440px;
+                object-position: center;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .staff-row{
+        background-color: white;
+        padding: 150px 0;
+        .staff-img-col{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5%;
+            img{
+                width: 100%;
+                }
+        }
+        .staff-text-col{
+            padding: 5%;
+            ul{
+                list-style: none;
+                padding: 0;
+                font-weight: bold;
+                li{
+                    margin-bottom: 8px;
+                }
+            }
+        }
+
+        .about-img{
+            img{
+                width: 100%;
+                height: auto;
+                max-height: 500px;
+            }
         }
     }
 }

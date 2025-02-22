@@ -3,5 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home/home');
+    return view('pages/home');
+});
+Route::get('/about', function () {
+    return view('pages/about');
 });
