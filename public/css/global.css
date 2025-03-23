@@ -74,7 +74,6 @@ h1,h2,h3,h4,h5, .rolp-title{
         justify-content: center;
         padding: 100px 15px;
         .about-us-col{
-            margin-top: 50px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -279,13 +278,15 @@ body .page-about{
                 width: 100%;
                 height: auto;
                 max-width: 300px;
-
             }
         }
     }
     .about-us-section{
-
+        .mx-auto{
+            margin-bottom: 30px;
+        }
         .about-us-col{
+            margin-top: 30px;
             padding: 0 10%;
             p{
                 color: #444444;
@@ -336,7 +337,7 @@ body .page-about{
             img{
                 width: 100%;
                 height: auto;
-                max-height: 500px;
+                max-height: 100%;
             }
         }
     }
@@ -365,6 +366,12 @@ body .page-about{
                 border-radius: 0px;
                 margin-bottom: 25px;
             }
+        }
+    }
+    .priest-col{
+        flex-wrap: wrap;
+        img {
+            margin-bottom: 30px;
         }
     }
 }
