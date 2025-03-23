@@ -8,3 +8,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('pages/about');
 });
+
+Route::get('about/basileia', function () {
+    return view('pages/basileia');
+});
