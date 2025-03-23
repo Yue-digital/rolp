@@ -51,6 +51,11 @@
                     <a class="nav-link" href="#">Give</a>
                 </li>
 
+                <!--<li class="nav-item">
+                    <a class="nav-link <?php echo(Request::is('test') ? 'active' : ''); ?>" href="{{ url('/test', []) }}">test</a>
+                </li>
+                -->
+
             </ul>
         </div>
     </div>
