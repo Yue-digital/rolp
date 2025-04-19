@@ -366,6 +366,7 @@ body .page-about{
     }
     .rolp-header-nav.rolp-color{
         position: fixed;
+        top:23px
     }
     .navbar .container{
         max-width: 95%;
