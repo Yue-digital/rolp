@@ -31,7 +31,7 @@
                 <li class="nav-item">
                     <a class="nav-link <?php echo(Request::is('about') ? 'active' : ''); ?>" href="{{ url('/about', []) }}">About</a>
                 </li>
-                <li class="nav-item dropdown">
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Sacraments & Services
                     </a>
@@ -41,15 +41,19 @@
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
+                </li> --}}
+
+                <li class="nav-item">
+                    <a class="nav-link <?php echo(Request::is('about/history') ? 'active' : ''); ?>" href="{{ url('/about/history', []) }}">Our History</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Our Community</a>
+                    <a class="nav-link" href="{{ url('/about/history', []) }}">Our Community</a>
                 </li>
 
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link" href="#">Give</a>
-                </li>
+                </li> --}}
 
                 <!--<li class="nav-item">
                     <a class="nav-link <?php echo(Request::is('test') ? 'active' : ''); ?>" href="{{ url('/test', []) }}">test</a>
