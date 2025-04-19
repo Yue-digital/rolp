@@ -109,7 +109,7 @@ object-fit: cover;
     margin-bottom: 0;
 }
 
-@media (min-width: 425px) {
+@media (max-width: 425px) {
     
     body .about-history-container{
         padding: 15px;
