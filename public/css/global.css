@@ -63,11 +63,18 @@ h1,h2,h3,h4,h5, .rolp-title{
 }
 
 .rolp-home-hero{
+    padding: 0;
     .hero-rolp-row{
         height: 50vw;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 100%;
+    }
+
+    img{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
 
     .about-us-section{
@@ -354,6 +361,12 @@ body .page-about{
     .navbar {
         background: #FFC619 !important;
     }
+    .rolp-header-nav{
+        position: relative;
+    }
+    .rolp-header-nav.rolp-color{
+        position: fixed;
+    }
     .navbar .container{
         max-width: 95%;
     }
@@ -374,6 +387,7 @@ body .page-about{
             margin-bottom: 30px;
         }
     }
+    
 }
 
 @media (max-width: 1024px) {

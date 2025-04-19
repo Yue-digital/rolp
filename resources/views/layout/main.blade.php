@@ -35,8 +35,12 @@
 
     <script>
         $(document).ready(function() {
+            if ($(window).scrollTop() > 0) {
+                    $(".rolp-header-nav").addClass("rolp-color");
+                } else {
+                    $(".rolp-header-nav").removeClass("rolp-color");
+            }
             $(window).scroll(function() {
-                console.log($(window).scrollTop())
                 if ($(window).scrollTop() > 0) {
                     $(".rolp-header-nav").addClass("rolp-color");
                 } else {
@@ -44,6 +48,24 @@
                 }
 
             })
+
+            function checkScreenSize() {
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+
+            // Example: Add a class based on screen size
+            if (width < 992) {
+                console.log('Screen size is small (mobile)');
+            } else {
+                console.log('Screen size is large (desktop)');
+            }
+        }
+
+        // Check screen size on load
+        checkScreenSize();
+
+        // Check screen size on window resize
+        window.addEventListener('resize', checkScreenSize);
 
             $('.basileia-col').slick({
                 infinite: true,
