@@ -12,3 +12,7 @@ Route::get('/about', function () {
 Route::get('about/basileia', function () {
     return view('pages/basileia');
 });
+
+Route::get('about/history', function () {
+    return view('pages/history');
+});
