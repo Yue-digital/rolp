@@ -116,6 +116,6 @@ object-fit: cover;
         margin-top: 0;
     }
     body .row{
-        margin: auto;
+        /* margin: auto; */
     }
 }

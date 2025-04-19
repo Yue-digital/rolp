@@ -63,7 +63,6 @@ h1,h2,h3,h4,h5, .rolp-title{
 }
 
 .rolp-home-hero{
-    padding: 0;
     .hero-rolp-row{
         height: 50vw;
         background-repeat: no-repeat;
@@ -366,7 +365,6 @@ body .page-about{
     }
     .rolp-header-nav.rolp-color{
         position: fixed;
-        top:23px
     }
     .navbar .container{
         max-width: 95%;
