@@ -16,3 +16,8 @@ Route::get('about/basileia', function () {
 Route::get('about/history', function () {
     return view('pages/history');
 });
+
+Route::get('our-community', function () {
+    return view('pages/our-community');
+});
+

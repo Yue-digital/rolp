@@ -1,0 +1,18 @@
+
+body .page-our-community img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+body .parish-life-col{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 15px 25px 50px;
+    a{
+        width: 19%;
+    }
+}

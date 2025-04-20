@@ -12,6 +12,7 @@
 
   <title>Resurrection of Our Lord Parish</title>
   <link rel="stylesheet" href="{{asset('/css/global.css')}}">
+  <link rel="stylesheet" href="{{asset('/css/lightbox.css')}}">
 
 </head>
 
@@ -48,7 +49,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/about/history', []) }}">Our Community</a>
+                    <a class="nav-link" href="{{ url('/our-community', []) }}">Our Community</a>
                 </li>
 
                 {{-- <li class="nav-item">
